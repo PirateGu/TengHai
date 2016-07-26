@@ -1,0 +1,13 @@
+…or create a new repository on the command line
+
+echo "# Test" >> README.md
+git init
+git add README.md|.(本文件夹)
+git commit -m "first commit" (-a所有文件)
+git remote add origin git@github.com:happy05abc/Test.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:happy05abc/Test.git
+git push -u origin master
