@@ -11,6 +11,12 @@
 <head>
 <body>
 
+<div class="container hidden-xs" id="fixed-header">
+
+</div>
+<div class="container hidden-xs" id="content">
+
+</div>
 <script src="js/jquery/jquery.js"></script>
 <script src="css/bootstrap/js/bootstrap.min.js"></script>
 <script src="js/other/selectivizr.js"></script> 
