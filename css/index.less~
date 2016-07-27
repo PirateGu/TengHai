@@ -1,2 +1,35 @@
 /********************main***************/
+@base-color-fontHead:#ffffff;/*white*/
+@base-color-fontMain:#000000;/*black*/
+@base-color-fontSome:#666666;/*gray*/
 
+@base-color-butt:#57b1e1;/*button*/
+@base-color-buttHover:#fc837d;/*buttonHover*/
+
+@base-color-nav1:#72abfc;/*nav1*/
+@base-color-nav2:#faa385;/*nav2*/
+@base-color-nav3:#cb96f1;/*nav3*/
+@base-color-nav4:#fd072;/*nav4*/
+@base-color-navbg:#e8e8e8;/*nav-bg*/
+
+@base-color-border:#d6dc15;/*border*/
+
+@base-color-left:#59adeb;/*gradients-left*/
+@base-color-right:#35ce93;/*gradients-right*/
+
+/******************************************/
+.linear-grad(@a,@b,@c){
+	background:-moz-linear-gradient(@a,@b,@c);
+	background:-webkit-linear-gradient(@a,@b,@c);
+	background:-ms-linear-gradient(@a,@b,@c);
+	background:-o-linear-gradient(@a,@b,@c);
+	background:linear-gradient(@a,@b,@c);
+}
+#fixed-header{
+	postion:fixed;
+	
+	min-width:100%;
+	width:100%;
+	height:93px;
+	.linear-grad(left,@base-color-left,@base-color-right);
+}

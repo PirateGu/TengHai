@@ -25,7 +25,6 @@ References:
 */
 
 /*global $: false, PIE: false, StyleFix: false, ActiveXObject: false, styleMedia: false, CSSStyleDeclaration: false, PrefixFree: false */
-
 (function(win) {
 	"use strict";
 	// =========================== Init Objects ============================
